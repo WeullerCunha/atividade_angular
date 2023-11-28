@@ -1,0 +1,116 @@
+main.table {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 100%;
+    height: fit-content;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table__header {
+    background-color: #096921;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 8px 20px;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .btn-back {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 16px;
+    align-self: flex-start;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-back:hover {
+    transform: scale(1.1);
+  }
+  
+  .back-link {
+    position: absolute;
+    left: 18px;
+    top: 12px;
+  }
+  
+  .form_alunos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 30px;
+  }
+  
+  .form_alunos .form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .form-sub-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .input-area {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 5px 0;
+  }
+  
+  .input-area input {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: rgb(4, 73, 35) (219, 74);
+  }
+  
+  .btn-area {
+    align-self: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .btn-adicionar {
+    background-color: #089708;
+    border: none;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-adicionar:hover {
+    background-color: #065309;
+    color: #fff;
+  }
+  
